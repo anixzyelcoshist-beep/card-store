@@ -29,7 +29,7 @@
             <div class="icon-shield">🔒</div>
             <h2>Login</h2>
             <p>Login with your registered mobile and password.</p>
-            <input type="text" id="login-mobile" placeholder="Mobile Number" value="7804996361">
+            <input type="text" id="login-mobile" placeholder="Mobile Number">
             <input type="password" id="login-pass" placeholder="Password">
             <button id="login-btn" class="btn">LOGIN & CONTINUE →</button>
             <button id="register-btn" class="btn-secondary">← REGISTER AGAIN</button>
@@ -41,7 +41,6 @@
         <div class="store-header">
             <h1>CARD STORE</h1>
             <p>Digital Balance Cards</p>
-            <span class="user-tag">👤 Anixzy Elcoshist</span>
         </div>
 
         <h3 class="section-title">💳 Select Your Card</h3>
@@ -93,8 +92,8 @@
 
         <div class="card-box customer-box">
             <h3>👤 Customer Details</h3>
-            <input type="text" id="cust-name" value="Anixzy Elcoshist" placeholder="Your Name">
-            <input type="text" id="cust-mobile" value="7804996361" placeholder="Mobile Number">
+            <input type="text" id="cust-name" placeholder="Your Name">
+            <input type="text" id="cust-mobile" placeholder="Mobile Number">
             <button id="proceed-payment-btn" class="btn">NEXT → PAYMENT</button>
         </div>
     </div>
@@ -115,14 +114,13 @@
 
             <div class="qr-container">
                 <div class="qr-placeholder">
-                    <!-- Placeholder visual for QR Code -->
                     <div style="background: white; padding: 15px; border-radius: 8px; display: inline-block;">
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=7292074822@fam" alt="QR Code" width="140">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=buisnessbyankit@fam" alt="QR Code" width="140">
                     </div>
                 </div>
             </div>
 
-            <input type="text" value="7292074822@fam" id="upi-input" readonly>
+            <input type="text" value="buisnessbyankit@fam" id="upi-input" readonly>
             <button id="copy-upi-btn" class="btn">📋 COPY UPI ID</button>
             <button id="paid-btn" class="btn-secondary">I HAVE PAID</button>
             <button id="back-to-store-btn" class="btn-back">← BACK TO STORE</button>
@@ -131,4 +129,5 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+    </html>
+    
